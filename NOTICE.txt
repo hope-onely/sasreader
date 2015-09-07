@@ -1,0 +1,5 @@
+eobjects.org SassyReader
+Copyright 2011 eobjects.org
+
+This product includes software developed by
+eobjects.org (http://eobjects.org/).

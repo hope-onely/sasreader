@@ -1,0 +1,32 @@
+ ------
+ Projects that use SassyReader
+ ------
+
+Projects that use SassyReader
+
+ Here are a few examples of projects that use SassyReader. If you're working on or know of a project that uses SassyReader, please let us know and we will consider it for this page.
+
+* DataCleaner
+
+ DataCleaner is one of the most popular open source data quality applications.
+ With DataCleaner you can analyze, move and improve your data and profile your
+ way to get a good understanding of it.
+ 
+ {{{http://datacleaner.eobjects.org}Visit DataCleaner's website}}
+
+* Pentaho Data Integration (Kettle)
+
+ Pentaho Data Integration (aka. Kettle) is the leading open source
+ Data Integration / ETL application. With the SAS Input step SassyReader's
+ functionality is provided to allow using SAS datasets as a part of your ETL
+ jobs.
+ 
+ {{{http://wiki.pentaho.com/display/EAI/SAS+Input}Visit the SAS Input step page}}
+ 
+* Weka
+
+ Weka is an open source data mining and machine learning application. With the
+ addition of SassyReader to Weka, you are now able to understand your SAS data
+ using the predictive analytics that Weka provides.
+ 
+ {{{http://weka.pentaho.com/}Visit Weka's website}} 

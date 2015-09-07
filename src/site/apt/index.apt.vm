@@ -1,0 +1,42 @@
+ ------
+ What is SassyReader?
+ ------
+ 
+What is SassyReader?
+
+ SassyReader is a Java library for reading data set files of the <<.sas7bdat>> format,
+ commonly used in the SAS statistical software system.
+ 
+ SassyReader also includes an adaptor for accessing a folder of SAS data sets as a
+ {{{http://metamodel.eobjects.org}MetaModel DataContext}}. This allows querying, joining
+ and exploration through a standardized interface.
+  
+ SassyReader was founded in 2011 and is part of {{{http://eobjects.org}eobjects.org}}.
+ eobjects.org is an open source community focused on data access and data management.
+ 
+ The majority of the work in this project is derived from
+ {{{https://github.com/BioStatMatt/sas7bdat}Matt Shotwell's sas7bdat project}},
+ an R-based SAS reader.
+ 
+* Why the name 'SassyReader'?
+ 
+ Here are a few definitions of the word 'sassy'... The rest should be self-explanatory:
+ 
++-------------------------------+
+Possessing the attitude of someone endowed with an ungodly amount of cool.
++-------------------------------+
+
++-------------------------------+
+Fun, daring, sexy, multifaceted, someone you have to have!
++-------------------------------+
+
++-------------------------------+
+Lively and spirited, stylish or chic
++-------------------------------+
+
+ ... More definitions available in the {{{http://www.urbandictionary.com/define.php?term=Sassy}Urban dictionary}} :-)
+ 
+
+* More information
+ 
+ Click on the menu to the left for more sassy information on SassyReader.

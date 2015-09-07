@@ -1,0 +1,41 @@
+ ------
+ How does it work?
+ ------
+ 
+How does it work?
+
+ Using SassyReader is quite simple. Simply instantiate the {{{./apidocs/org/eobjects/sassy/SasReader.html}SasReader}}
+ class with the file you wish to read. Then invoke the read(...) method with a callback object that you
+ implement yourself, according to our interface.
+ 
+ Here's a simple example of printing a data set to System.out:
+ 
++-------------------------------+
+SasReader reader = new SasReader(new File("mydata.sas7bdat"));
+reader.read(new SasReaderCallback() {
+	public void column(int index, String name, String label, SasColumnType type, int length) {
+		System.out.println("Column no. " + index + ": " + label);
+	}
+	
+	public boolean readData() { return true; }
+
+	public boolean row(int rowNumber, Object[] rowData) {
+		System.out.println("Row no. " + rowNumber + ": " + Arrays.toString(rowData));
+		return true;
+	}
+});
++-------------------------------+
+
+ If you want to use SassyReader through {{{http://metamodel.eobjects.org}MetaModel}} it's even
+ easier. Simply instantiate a SasDataContext with a directory argument and you're ready to
+ explore and query:
+
++-------------------------------+
+DataContext dc = new SasDataContext(new File("my_sas_directory"));
+Table[] tables = dc.getDefaultSchema().getTables();
+Query q = dc.query().from(tables[0]).select("col1").where("col2").equals("foo").toQuery();
+DataSet ds = dc.executeQuery(q);
+while (ds.next()) {
+	System.out.println(Arrays.toString(row.getValues()));
+}
++-------------------------------+

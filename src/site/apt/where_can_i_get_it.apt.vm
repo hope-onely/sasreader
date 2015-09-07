@@ -1,0 +1,26 @@
+ ------
+ Where can I get it?
+ ------
+ 
+Where can I get it?
+
+ SassyReader is being published to the central Maven repositories. Even if you don't use Maven
+ you can easily download the JAR file from the repository: {{{http://repo1.maven.org/maven2/org/eobjects/sassyreader/}Browse maven central}}.
+
+ If you use Maven it is <very> straight-forward. Simply include SassyReader as a dependency in your project:
+ 
++-------------------------------+
+<dependency>
+    <groupId>org.eobjects.sassyreader</groupId>
+    <artifactId>SassyReader</artifactId>
+    <version>${project.version}</version>
+</dependency>
++-------------------------------+
+
+ You can also check out the source code and build it yourself:
+
++-------------------------------+
+svn co http://eobjects.org/svn/SassyReader/trunk SassyReader
+cd SassyReader
+mvn clean install
++-------------------------------+

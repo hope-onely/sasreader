@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/DECORATION/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd"
+	name="SassyReader - Open Source SAS reader for Java">
+
+	<bannerLeft>
+		<name>SassyReader</name>
+		<href>index.html</href>
+	</bannerLeft>
+
+	<version position="none" />
+
+	<body>
+		<head>
+			<link rel="stylesheet" href="styles.css" type="text/css" />
+		</head>
+
+		<menu name="Introduction">
+			<item name="What is SassyReader?" href="index.html" />
+			<item name="How does it work?" href="how_does_it_work.html" />
+			<item name="How well does it work?" href="how_well_does_it_work.html" />
+			<item name="Where can I get it?" href="where_can_i_get_it.html" />
+		</menu>
+		
+		<menu name="Resources">
+			<item name="Projects that use SassyReader" href="project_cases.html" />
+			<item name="API documentation" href="http://sassyreader.eobjects.org/apidocs/index.html" />
+			<item name="Forum" href="http://eobjects.org/trac/discussion/forum/9" />
+			<item name="Browse source" href="http://eobjects.org/svn/SassyReader/trunk" />
+		</menu>
+
+		<menu name="Reports">
+			<item name="FindBugs report" href="findbugs.html" />
+			<item name="CPD report" href="cpd.html" />
+			<item name="PMD report" href="pmd.html" />
+		</menu>
+	</body>
+</project>

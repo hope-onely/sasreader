@@ -1,0 +1,17 @@
+ ------
+ How well does it work?
+ ------
+
+How <well> does it work?
+
+ As there is no specification that states how the .sas7bdat format works internally we
+ can never be 100% sure if our reader does a correct job in all cases. So there are no
+ warranties included.
+ 
+ BUT we do have a quite extensive test suite and are continually improving our portfolio
+ of tests to make sure that the quality of the library is as good as possible. SassyReader
+ seems to be able to read 9 out of 10 data sets correctly, while a small portion of data sets
+ are not readable at all.
+ 
+ We strive to employ a "fail early" strategy so that in case a data set is not readable by
+ SassyReader you will know it up front and not waste time processing half a file.
